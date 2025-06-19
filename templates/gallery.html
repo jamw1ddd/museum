@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<!-- Bosh Sarlavha -->
+<header class="mainHeadingHead position-relative bgCover w-100 d-flex text-white" style="background-image: url({% static 'images/img175.jpg' %});">
+    <div class="mhhAlignHolder d-flex w-100 align-items-center position-relative">
+        <div class="container py-6">
+            <h1 class="text-white mb-0">Galereya</h1>
+        </div>
+    </div>
+</header>
+
+<!-- Rasm Galereyasi -->
+<section class="imageGalleryBlock pt-8 pb-3 pb-md-6 pt-lg-13 pb-lg-10 pt-xl-19 pb-xl-16">
+    <div class="container">
+        <!-- Filtrlar -->
+        <ul class="list-unstyled isoFiltersList ogFiltersList isLeft d-flex flex-wrap justify-content-center justify-content-md-start mb-6 mb-lg-9 mb-xl-11">
+            <li class="active">
+                <a href="javascript:void(0);">Barchasini ko‘rsatish</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" data-filter=".objects">Obyektlar</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" data-filter=".art">San'at</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" data-filter=".pictures">Rasmlar</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);" data-filter=".installation">O‘rnatmalar</a>
+            </li>
+        </ul>
+
+        <!-- Rasm Bloklari -->
+        <div class="row isoContentHolder">
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 objects isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img04.jpg' %}">
+                            <img src="{% static 'images/img04.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 pictures isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img05.jpg' %}">
+                            <img src="{% static 'images/img05.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 art isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img06.jpg' %}">
+                            <img src="{% static 'images/img06.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 pictures isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img16.jpg' %}">
+                            <img src="{% static 'images/img16.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 pictures isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img08.jpg' %}">
+                            <img src="{% static 'images/img08.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 art isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img14.jpg' %}">
+                            <img src="{% static 'images/img14.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 pictures isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img15.jpg' %}">
+                            <img src="{% static 'images/img15.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 art isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img16.jpg' %}">
+                            <img src="{% static 'images/img16.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 installation isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img173.jpg' %}">
+                            <img src="{% static 'images/img173.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-xl-3 objects isoCol">
+                <article class="collectionColumn mb-6 position-relative text-center">
+                    <div class="imgHolder">
+                        <a data-fancybox="gallery" data-caption="Daniel Henry Khanweiler, kuz - 1930" href="{% static 'images/img174.jpg' %}">
+                            <img src="{% static 'images/img174.jpg' %}" class="img-fluid w-100 d-block" alt="Rasm tavsifi">
+                            <div class="ccCaption position-absolute bg-white d-flex align-items-center justify-content-center">
+                                <div class="w-100 py-3 px-3">
+                                    <h2 class="fzMedium mb-4">Daniel Henry Khanweiler, kuz - 1930</h2>
+                                    <h3 class="fontAlter text-gray777 mb-0">Henri Merparlo</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

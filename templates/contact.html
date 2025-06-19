@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<header class="mainHeadingHead position-relative bgCover w-100 d-flex text-white" style="background-image: url({% static 'images/img113.jpg' %});">
+    <div class="mhhAlignHolder d-flex w-100 align-items-center position-relative">
+        <div class="container py-6">
+            <h1 class="text-white mb-0">Biz bilan bogʻlaning</h1>
+        </div>
+    </div>
+</header>
+
+<article class="ourMissionBlock pt-6 pt-md-9 pb-3 pb-md-9 pt-lg-12 pb-lg-13 pt-xl-20 pb-xl-22">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+                <div class="px-xl-5">
+                    <header class="headingHead text-center">
+                        <h1 class="mb-3">Biz bilan bogʻlaning</h1>
+                        <div class="eabDescrText eabDescrTextII text-gray888 fontSerif">
+                            <p>Biz doimo sizga yordam berishga tayyormiz, dunyoning istalgan joyidan biz bilan bogʻlanishingiz mumkin.</p>
+                        </div>
+                    </header>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5320 mb-12 mt-lg-8">
+        <div class="row">
+            <div class="col-12 col-md-8 order-md-2">
+                <div class="contactFormWrap pl-lg-8 mb-6 mb-md-0">
+                    <form method="post" novalidate>
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button type="submit" class="btn btn-secondary btnMidMinWidth mt-2 text-uppercase">Xabarni yuborish</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 order-md-1">
+                <div class="ctInfoWrap text-gray777 pt-1">
+                    <strong class="title h4 d-block">Ish vaqti</strong>
+                    <p class="mb-5 mb-md-8">Har kuni 10:00–17:00<br>Yakshanba 20:00 gacha</p>
+                    <strong class="title h4 d-block mb-2">Aloqa ma’lumotlari</strong>
+                    <address class="mb-5 mb-md-9">
+                        <p class="mb-5">22720 EL Camino Real <br>Santa Margarita, NY 93453</p>
+                        <p><a href="tel:16179876543" class="textDecorationNone">+1 (617) 987-6543</a><br>
+                        <a href="mailto:museum@example.org" class="textDecorationNone">museum@example.org</a></p>
+                    </address>
+                    <strong class="title h4 d-block mb-4">Ijtimoiy tarmoqlar</strong>
+                    <ul class="list-unstyled socialNetworks ctSocialNetworks d-flex flex-wrap mb-0">
+                        <li><a href="javascript:void(0);"><i class="fab fa-twitter"><span class="sr-only">Twitter</span></i></a></li>
+                        <li><a href="javascript:void(0);"><i class="fab fa-pinterest"><span class="sr-only">Pinterest</span></i></a></li>
+                        <li><a href="javascript:void(0);"><i class="fab fa-facebook-f"><span class="sr-only">Facebook</span></i></a></li>
+                        <li><a href="javascript:void(0);"><i class="fab fa-instagram"><span class="sr-only">Instagram</span></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+{% comment %} <aside class="saMap saMapII w-100 position-relative">
+    <iframe src="https://www.google.com/maps/embed?pb=..." class="w-100 h-100 d-block border-0 position-absolute" aria-hidden="false" tabindex="0"></iframe>
+</aside> {% endcomment %}
+{% endblock %}
